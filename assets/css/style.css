@@ -44,9 +44,9 @@ nav.sticky-top{
 
 .card-home .card-title {
     color: #fff;
-    font-size: 54px;
+    font-size: 24px;
     font-weight: 700;
-    margin: 30px 0 0;
+    margin: 100px 0 0;
 }
 
 .card-home .card-subtitle {
@@ -72,4 +72,14 @@ nav.sticky-top{
 .card-home .social-icon a i {
     line-height: 36px;
     font-size: 16px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .card-home .card-title {
+        color: #fff;
+        font-size: 54px;
+        font-weight: 700;
+        margin: 30px 0 0;
+    }
 }
